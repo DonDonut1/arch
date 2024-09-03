@@ -1,0 +1,47 @@
+[colors.normal]
+black = "#000000"
+blue = "#1793D1"
+cyan = "#627E91"
+green = "#00A50F"
+magenta = "#8E03A3"
+red = "#D41818"
+white = "#FFFFFF"
+yellow = "#FEB32D"
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[window]
+decorations = "none"
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 0
+y = 0

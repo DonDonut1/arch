@@ -1,0 +1,114 @@
+#!/bin/bash
+
+# ____ ____  ______        ____  __
+#| __ ) ___||  _ \ \      / /  \/  |
+#|  _ \___ \| |_) \ \ /\ / /| |\/| |
+#| |_) |__) |  __/ \ V  V / | |  | |
+#|____/____/|_|     \_/\_/  |_|  |_|
+
+###BORDERCOLORS###
+
+source ~/.config/bspwm/colors/colors.sh
+#source ~/.config/bspwm/scripts/screen.sh
+
+###WORKSPACES###
+bspc monitor DP-4 -d 1 2 3 4 5 6 7
+bspc monitor DP-2 -d 8 9
+#bspc monitor HDMI-0 -d 10
+
+###BSPWM CONFIGURATION###
+#bspc config border_radius		8
+bspc config border_width		2
+bspc config window_gap			30
+bspc config split_ratio			0.55
+bspc config borderless_monocle		true
+bspc config gapless_monocle		true
+bspc config single_monocle		false
+bspc config focus_follows_pointer	true
+bspc config click_to_focus		true
+
+###RULES###
+bspc rule -a firefox desktop=1 follow=on
+bspc rule -a thunderbird desktop=1 follow=on
+bspc rule -a Alacritty desktop=2 follow=on
+bspc rule -a Thunar desktop=3 follow=on
+bspc rule -a libreoffice-startcenter desktop=4 follow=on
+bspc rule -a "Soffice:soffice" desktop=4 follow=on
+bspc rule -a Gimp desktop=5 follow=on
+bspc rule -a Blender desktop=5 follow=on
+bspc rule -a Spotify desktop=6 follow=on 
+bspc rule -a discord desktop=7 follow=on
+bspc rule -a steam desktop=7 follow=off
+bspc rule -a Galculator state=floating
+
+###CURSOR###
+xsetroot -cursor_name left_ptr &
+
+###MONITORS###
+xrandr --output DP-4 --primary --mode 3440x1440 --rate 144 --pos 0x1440 --output DP-2 --mode 2560x1440 --rate 144 --pos 440x0 --output HDMI-0 --off #--output HDMI-0 --mode 1920x1080 --rate 120 --right-of DP-4 
+# Monitor blanking and screensaver off
+xset s off s noblank s noexpose s 0 0 -dpms &
+
+###TOUCHPAD###
+#xinput set-prop "04CA00B1:00 04CA:00B1 Touchpad" "libinput Tapping Enabled" 1
+
+###AUTOSTART###
+sxhkd &
+# starts the simple x hotkey daemon
+
+sleep 1
+compfy -b &
+# starts the compositor
+
+lxpolkit &
+# starts the polkit for password input
+
+$HOME/.config/polybar/scripts/launch.sh &
+# starts polybar
+
+nm-applet &
+# starts network-manager-applet 
+
+#nitrogen --restore &
+# starts the wallpaper program nitrogen and restores the last used wallpaper
+
+~/.fehbg &
+# starts the wallpaper program feh
+
+dunst &
+# starts the notification service
+
+#conky &
+# starts conky
+
+numlockx on &
+# sets the numlock to be activated
+
+#discord &
+# starts discord
+
+#dropbox &
+# starts dropbox
+
+/usr/lib/kdeconnectd &
+# starts the kdeconnect daemon
+
+killall openrgb
+sleep 5
+openrgb --startminimized &
+# starts openrgb minimized in the tray
+
+killall pasystray 
+pasystray --notify=sink &
+# starts audio-applet
+
+#sleep 1
+#$HOME/.config/bspwm/scripts/bg.sh &
+# runs the xwinwrap live-background script
+
+easyeffects --gapplication-service &
+# starts easyeffects with hidden window
+
+killall blueman-applet
+blueman-applet
+# starts bluetoot manager applet

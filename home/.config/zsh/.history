@@ -1,0 +1,1017 @@
+ cd ..
+cd ..
+ls
+cd desktop-directories
+ls
+cd .
+cd ..
+ls
+cd
+urxvt
+sudo pacman -Ss urxvt
+sudo pacman -R rxvt-unicode rxvt-uniceode-terminfo
+sudo pacman -R rxvt-unicode rxvt-uniccode-terminfo
+sudo pacman -R rxvt-unicode rxvt-unicode-terminfo
+roficonfig
+exit
+which pasystray
+whereis pasystray
+cd /usr/share/pasystray
+ls
+ls -la
+vim pasystray.gtk3.glade
+cd
+pasystray -h
+bspwmconfig
+sudo pacman -Ss pasystray
+sudo pacman -S pasystray
+pasystray
+pasystray
+pasystray -g
+pasystray --notify=help
+pasystray --notify=all
+pasystray --notify=all -S
+pasystray --notify=all 
+pasystray --notify=help
+sudo pacman -Ss recorder
+sudo pacman -S gnome-sound-recorder
+sudo pacman -Ss pulse-audio
+sudo pacman -Ss pulseaudio
+sudo pacman -Ss pulseaudio manager
+sudo pacman -Ss pulseaudio volume meter
+sudo pacman -Ss pulseaudio equalizer
+sudo pacman -Ss pa manager
+sudo pacman -Ss volume meter
+sudo pacman -Ss pa equalizer
+sudo pacman -Ss pavumeter
+sudo pacman -Ss paman
+paru pavumeter
+bspwmconfig
+bspwmconfig
+pasystray --notify=help
+bspwmconfig
+sudo pacman -Ss bottles
+paru bottles
+paru bottles
+sudo pacman -Syu
+paru bottles
+clear
+bspwmconfig
+clear
+exit
+killall bottles
+killall bottles
+paru -Syu
+patool
+cd /usr/share/bottles/bottles/backend/models
+vim config.py
+clear
+exit
+bottles
+sudo pacman -Ss freetype
+sudo pacman -Ss ttf-freetype
+sudo pacman -Ss ttf
+sudo pacman -Ss freetype
+sudo pacman -S lib32-freetype2
+bottles
+bottles
+killall bottles
+bottles
+bottles
+bottles
+killall bottles
+clear
+cd /usr/share/bottles
+ls
+cd bottles
+ls
+cd frontend
+ls
+bottles
+cd /usr/share/bottles/bottles/backend/models
+ls
+vim config.py
+vim config.py
+cd
+sudo bottles
+bottles
+bottles
+bottles
+paru -Rns bottles
+bottles
+paru bottles
+bottles
+bottles
+compfyconfig
+alsamixer -c0
+sudo pacman -S protontricks
+sudo pacman -Ss protontricks
+paru protontricks
+clear
+exit
+sudo pacman -Syu
+clear
+neofetcht
+neofetch
+exit
+killall thunar
+thunar
+thunar
+clear
+zshconfig
+sysbackup
+sysbackup
+rsync --help
+zshconfig
+sudo pacman -Ss xwinwrap
+paru xwinwrap
+sudo pacman -S mpv
+xwinwrap
+cd .config/polybar/scripts/
+ls
+vim weather-plugin.sh
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd bspwm
+ls
+cd scripts
+ls
+vim bg.sh
+cd
+bspwmconfig
+killall feh
+bspwmconfig
+bspwmconfig
+mpv
+cd .config/bspwm/scripts
+ls
+vim bg.sh
+bspwmconfig
+alsamixer
+alsamixer -g
+pipewire
+pipewire -h
+pulseaudio
+pactl info
+systemctl status -pipewire
+systemctl status pipewire
+systemctl --user status pipewire pipewire-session-manager
+systemctl enable pipewire.servive
+systemctl enable pipewire.service
+sudo pacman -Ss pipewire
+sudo pacman -Ss pulseaudio
+amixer
+systemctl --user status pipewire pipewire-session-manager
+systemctl --user status pipewire
+systemctl status pipewire
+systemctl --user enable pipewire
+systemctl --user status pipewire
+aplay -l
+clear
+exit
+thunar
+sudo pacman -Ss xdg portal
+sudo pacman -Ss adw
+sudo pacman -Ss recorder
+gnome-sound-recorder
+gnome-sound-recorder -h
+gnome-sound-recorder --help-all
+gnome-sound-recorder
+sudo pacman -S audacity
+bspwmconfig
+clear
+exit
+sudo pacman -Ss pipewire
+systemctl --user status pipewire
+systemctl --user status pipewire pipewire-session-manager
+alsamixer
+alsamixer
+sudo paru -Syu
+clear
+exit
+paru -Syu
+sudo pacman -Syu
+clear
+exit
+arecord -l
+alsamixer
+sudo pacman -Syu
+clear
+exit
+sudo pacman -S easyeffects
+pactl
+pactl info
+pipewire
+pipewire -h
+pipewire -v
+sudo -E vim /usr/share/pipewire/pipewire.conf
+sudo pacman -Ss pipewire
+sudo pacman -S lib32-pipewire lib32-pipewire-jack lib32-pipewire-v412
+sudo pacman -S lib32-pipewire lib32-pipewire-jack lib32-pipewire-v4l2
+clear
+exit
+alsamixer
+pactl list cards
+wireplumber
+wireplumber -h
+sudo pacman -Ss pipewire
+sudo pacman -S pipewire-session-manager
+sudo pacman -Ss pulseaudio
+sudo pacman -Ss pipewire
+pw-cli
+pw-cli -h
+pw-cli list-remotes
+pw-cli list-objects
+pw-cli -h
+sudo pacman -Ss qpwgraph
+sudo pacman -S qpwgraph
+sudo ufw status
+sudo pacman -Ss pwgraph
+pactl -h
+pactl -list
+pactl -l
+pactl list source
+pactl list sources
+killall audacity
+sudo pacman -Ss pamixer
+sudo pacman -S pamixer
+pamixer
+pamixer
+pamixer -h
+sudo pacman -R pamixer
+alsamixer
+sudo pacman -Ss pipewire
+cd /usr/share/pipewire
+ls
+vim jack.conf
+cd ..
+cd wireplumber
+ls
+vim wireplumber.conf
+vim wireplumber.conf.d
+sudo pacman -Ss pulsemixer
+sudo pacman -S pulsemixer
+pulsemixer
+sudo pacman -Ss alsa
+sudo pacman -Ss pipewire-media
+sudo pacman -Ss pipewire
+sudo pacman -R pipewire-session-manager
+sudo pacman -Ss wireplumber
+alsactl -h
+killall audacity
+killall audacity
+easyeffects -h
+easyeffects -w
+easyeffects
+easyeffects -w
+easyeffects -w
+easyeffects 
+bspwmconfig
+easyeffects -h
+easyeffects -h
+easyeffects -w
+easyeffects -w
+easyeffects
+bspwmconfig
+bspwmconfig
+clear
+exit
+easyeffects -h
+easyeffects --help-all
+easyeffects --help-gapplication
+sudo pacman -S qalculator
+sudo pacman -S qalculate
+sudo pacman -S qalculate!
+paru qalculate
+sudo ufw enable
+sudo ufw status
+clear
+exit
+sudo pacman -Syu
+clear
+exit
+exit
+lsblk
+lsblk -f
+lsusb
+paru openlinkhub
+paru openlin
+sudo pacman -Ss wireshark
+sudo pacman -S wireshark-qt
+wireshark
+sudo wireshark
+sudo pacman -Ss usbmon
+paru usbmon
+sudo wireshark
+paru usbmon
+sudo pacman -Syu
+paru usbmon
+paru usbmon
+paru usbmon
+paru usbmon
+usbmon
+which usbmon
+whereis usbmon
+sudo pacman -Syu
+clear
+exit
+su
+sudo pacman -Qq
+sudo pacman -Qm
+sudo pacman -Qe
+sudo pacman -h
+sudo pacman -Qs
+sudo pacman -Qm
+sudo pacman -Ss picom
+paru picom
+sudo pacman -S gvfs
+lsblk -f
+mkinitcpio -h
+sudo pacman -Ss cursor
+paru cursor IDE
+paru cursor
+neofetch
+neofetch
+cd .config/neofetch
+ls
+vim config.conf
+neofetch
+sudo pacman -S neovim
+nvim
+cd .config/bspwm
+ls
+nvim bspwmrc
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim
+cd .config/bspwm
+ls
+nvim bspwmrc
+cd ..
+cd zsh
+ls
+ls -la
+nvim .zshrc
+cd
+bspwmconfiog
+bspwmconfig
+bspwmconfig
+polybarconfig
+cd .config/polybar/colors
+ls
+vim tokyonight.ini
+cd ..
+cd ..
+cd nvim
+ls
+vim init.lua
+cd lua
+ls
+cd kickstart
+ls
+cd plugins
+ls
+cd ..
+ls
+cd ..
+ls
+cd custom
+ls
+cd plugins
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+clear
+exit
+cd .config/polybar/colors
+vim tokyonight.ini
+vim tokyonight.ini
+cd .config/nvim
+ls
+vim init.lua
+nvim .
+nvim
+ls
+cd doc
+ls
+vim kickstart.txt
+ls
+cd ..
+ls
+rm -r doc
+ls
+rm LICENSE.md
+ls
+vim README.md
+ls
+rm README.md
+ls
+ls -la
+rm -r .git .github .gitignore
+ls
+ls -la
+vim .stylua.toml
+vim lazy-lock.json
+rm lazy-lock.json
+ls
+ls -la
+vim .stylua.toml
+cd lua
+ls
+cd custom
+ls
+cd plugins
+ls
+vim init.lua
+ls -la
+cd ..
+ls
+cd ..
+ls -la
+cd kickstart
+ls
+vim health.lua
+cd plugins
+ls
+vim lint.lua
+cd ..
+cd ..
+cd ..
+ls
+vim init.lua
+nvim
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+ls
+ls -la
+cd lua
+ls
+cd custom
+ls
+cd plugins
+ls
+cd ..
+cd ..
+cd ..
+ls
+cd lua
+ls
+cd kickstart
+ls
+cd plugins
+ls
+ls -la
+cd ..
+cd ..
+ls
+cd custom
+ls
+ls -la
+cd plugins
+ls
+cd ..
+cd ..
+cd..
+ls
+cd ..
+ls -la
+vim init.lua
+vim init.lua
+cd
+which nvim
+which neovim
+whereis nvim
+cd /usr/share/nvim
+ls
+vim archlinux.lua
+cd runtime
+ls
+cd plugin
+ls
+cd
+whereis Colorizer
+whereis colorizer
+which colorizer
+which Colorizer
+clear
+sudo ufw status
+cd Dokumente
+ls
+cd Linux
+ls
+cd Arch\ Linux
+ls
+cd installscripts
+ls
+vim 1-installscript.sh
+vim 2
+vim 2-paru.sh
+vim 3-aur.sh
+vim 4-groups.sh
+vim 5-virt-manager.sh
+cd ..
+ls
+cd ..
+ls
+cd
+compfyconfig
+clear
+exit
+sudo pacman -Syu
+sudo ufw enable
+systemctl enable ufw
+sudo systemctl enable ufw
+systemctl status ufw
+sudo systemctl enable --now ufw
+systemctl status ufw
+clear
+rebott
+reboot
+sudo ufw status
+clear
+exit
+figlet -f big BSPWM
+figlet BSPWM
+echo BSPWM | figlet
+figlet BSPWM Config
+figlet #BSPWM Config
+figlet BSPWM Config
+sudo pacman -Ss picom
+paru picom
+clear
+clear
+cd /usr/bin/env
+/usr/bin/env
+/usr/bin/env bash
+sudo pacman -S figlet
+figlet -h
+man figlet
+sudo pacman -Ss toilet
+bspwmconfig
+cd Dokumente
+ls
+cd Linux
+ls
+mkdir installscript
+ls
+cd installscript
+ls
+ls -la
+lsd -la
+ls -al
+ls -a
+ls -l
+clear
+touch 1-arch-basic.sh
+ls
+$user
+$USER
+echo $USER
+clear
+vim 1-arch-basic.sh
+rm 1-arch-basic.sh
+ls
+cd ..
+rm -r installscript
+ls
+mv Arch\ Linux ArchLinux
+ls
+cd ArchLinux
+ls
+vim Arch-Manual-Install.md
+clear
+exit
+cd Dokumente
+ls
+cd Linux
+ls
+cd Github
+ks
+ls
+cd .
+cd ..
+ls
+cd ArchLinux
+ls
+cp github-recovery-codes.txt ~/Dokumente/Linux/Github/
+ls
+mv github-recovery-codes.txt ~/Dokumente/Linux/Github/github-recovery-codes.txt
+ls
+sudo pacman -R qpwgraph
+clear
+exit
+whereis bottles
+cd /usr/share/bottles
+ls
+cd bottles
+ls
+cd backend
+ls
+vim downloader.py
+cd managers
+ls
+cd .
+cd ..
+ls
+cd models
+ls
+cd ..
+ls
+cd repos
+ls
+cd ..
+ls
+cd utils
+ls
+cd ..
+ls
+cd wine
+ls
+cd ..
+cd ..
+ls
+cd __pycache__
+ls
+cd ..
+cd frontend
+ls
+cd cli
+ls
+cd ..
+cd utils
+ls
+cd ..
+cd ..
+ls
+cd backend
+ls
+vim globals.py
+vim params.py
+vim diff.py
+cd ..
+clear
+exit
+echo $HOSTNAME
+echo $HOST
+clear
+clear
+vim
+cd Dokumente
+ls
+cd
+clear
+sudo pacman -Ss bluez
+sudo pacman -S bluez bluez-utils bluez-tools
+sudo pacman -Ss bluez-firmware
+sudo pacman -S blueberry
+sudo pacman -S xpadneo
+paru xpadneo
+sudo bluetoothctl
+sudo bluetoothctl
+sudo pacman -S dkms
+sudo pacman -S linux-headers
+sudo bluetoothctl
+sudo bluetoothctl -h
+bluetoothctl
+systemctl status bluetooth
+systemctl enable --now bluetooth.service
+systemctl status bluetooth
+systemctl start --now bluetooth.service
+systemctl status bluetooth
+sudo bluetoothctl
+sudo bluetoothctl
+cd Dokumente/Linux/ArchLinux
+ls
+cd installscripts
+ls
+vim 6-bluetooth.sh
+chmod +x 6-bluetooth.sh
+ls
+cd
+blueberry
+bspwmconfig
+clear
+exit
+blueberry -h
+man blueberry
+bspwmconfig
+clear
+exit
+sudo pacman -R blueberry
+sudo pacman -Ss blueman
+sudo pacman -S blueman
+blueman-tray
+blueman-applet
+killall blueman-tray
+blueman-tray
+killall blueman-tray
+blueman-applet
+bspwmconfig
+clear
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+vim 6-bluetooth.sh
+paru -R xpadneo
+paru xpadneo
+paru -Rns xpadneo-dkms
+clear
+vim 6-bluetooth.sh
+clear
+exit
+echo -h
+echo --help
+man echo
+read -p
+if read = q; then break\
+q
+if (read = q); then break echo "end"\
+q\
+\
+
+if (read = q); then break echo "end" read
+if (read = q); then echo "end" read
+if (read = q); then echo "end" read fi
+if (read = q); then echo "end" read fi
+if (read = q); then echo "end" read fi
+if (read = q); then echo "end" read \
+fi
+if\
+read = q ; then echo "end" \
+fi
+if\
+read = "q" ; then echo "end" \
+fi
+q
+if\
+read = "q" ;\
+then \
+echo "end" \
+fi
+if\
+read = "q" ;\
+then \
+echo "end" \
+fi
+bash
+cd Dokumente
+ls
+cd Linux
+cd ArchLinux
+ls
+mkdir test
+cd test
+vim test.sh
+chmod +x test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+vim test2.sh
+rm test2.sh
+cp test.sh test2.sh
+ls
+vim test2.sh
+vim test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+vim test.sh
+./test.sh
+vim test2.sh
+./test.sh
+vim test.sh
+vim test.sh
+./test.sh
+vim test2.sh
+./test.sh
+vim test2.sh
+./test.sh
+cp test.sh Installer.sh
+vim installer.sh
+vim Installer.sh
+mv Installer.sh installer.sh
+vim installer.sh
+clear
+exit
+sudo pacman -Ss thunar
+sudo pacman -Qq
+sudo pacman -Qe
+sudo pacman -Qa
+sudo pacman -Qm
+sudo pacman -Qt
+sudo pacman -Qe
+chsh -s /usr/bin/zsh
+sudo cp /etc/libvirt/libvirt.conf ~/Dokumente/Linux/ArchLinux/test
+echo $USER
+sudo cp /etc/libvirt/network.conf ~/Dokumente/Linux/ArchLinux/test/virt-manager
+groups
+cd Dokumente/Linux/ArchLinux/test
+ls
+mkdir sddm
+ls
+ls
+cd sddm
+ls
+ls
+sudo pacman -S streamlink
+pacman -Qe
+pacman -Qm
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+vim 2-paru.sh
+vim 1-installscript.sh
+pacman -Qm
+paru -h
+vim 1-installscript.sh
+ls
+vim 2-paru.sh
+vim 3-aur.sh
+ls -la
+cd ..
+ls
+cd installscripts
+ls
+vim 5-virt-manager.sh
+vim 6-bluetooth.sh
+vim 4-groups.sh
+cd
+cd /usr/share/sddm
+ls
+cd themes
+ls
+cd simple-login
+ls
+ristretto Background.jpg
+ls
+cd ..
+ls
+sudo cp -r simple-login/ ~/Dokumente/Linux/ArchLinux/test/sddm
+cd ..
+ls
+vim scripts
+cd
+cd /etc/sddm.conf
+vim /etc/sddm.conf
+sudo cp /etc/sddm.conf ~/Dokumente/Linux/ArchLinux/test/sddm
+cd Dokumente/Linux/ArchLinux/test
+ls
+vim 1-installer.sh
+vim 4-config.sh
+cat /var/log/pacman.log
+clear
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+cd ..
+ls
+cd test
+ls
+vim installer.sh
+touch paru.sh
+vim installer.sh
+ls
+rm paru.sh
+ls
+cp test.sh 2-paru.sh
+ls
+mv installer.sh 1-installer.sh
+ls
+vim 2-paru.sh
+./2-paru.sh
+ls
+paru bottles
+vim 2-paru.sh
+cp test.sh 3-aur.sh
+ls
+vim 3-aur.sh
+vim 1-installer.sh
+cp test.sh 4-config.sh
+vim 3-aur.sh
+vim 4-config.sh
+vim 4-config.sh
+vim 1-installer.sh
+vim 4-config.sh
+vim 1-installer.sh
+vim 4-config.sh
+ls
+rm test.sh test2.sh
+ls
+cd ..
+ls
+cd installscripts
+ls
+vim 1-installscript.sh
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+vim 4-config.sh
+cd virt-manager
+lös
+ls
+rm libvirt.conf
+ls
+ls
+vim libvirtd.conf
+cd ..
+vim 4-config.sh
+clear
+exit
+cd /etc/libvirt/libvirtd.conf
+vim /etc/libvirt/libvirtd.conf
+vim /etc/libvirt/libvirt.conf
+sudo cp /etc/libvirt/libvirtd.conf ~/Dokumente/Linux/ArchLinux/test/virt-manager
+sudo cp /etc/libvirt/libvirtd.conf ~/Dokumente/Linux/ArchLinux/installscript/virt-manager
+sudo cp /etc/libvirt/libvirtd.conf ~/Dokumente/Linux/ArchLinux/installscripts/virt-manager
+cd Downloads
+ls
+cd github
+ls
+git clone https://github.com/DonDonut1/archpostinstall
+ls
+cd archpostinstall
+ls
+ls -la
+clear
+exit
+vim /etc/pacman.conf
+sudo cp /etc/pacman.conf ~/Dokumente/Linux/ArchLinux/installscripts/pacman
+ls
+sxhkdconfig
+bspwmconfig
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+mkdir pacman
+ks
+ls
+cd pacman
+ls
+cd ..
+ls
+vim 4-config.sh
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+vim 3-aur.sh
+clear
+exit
+cd Dokumente/Linux/ArchLinux/installscripts
+ls
+vim 4-config.sh
+clear
+exit

@@ -1,0 +1,80 @@
+[colors.bright]
+black = "#4c566a"
+blue = "#73daca"
+cyan = "#b4f9f8"
+green = "#a3be8c"
+magenta = "#c0caf5"
+red = "#bf616a"
+white = "#cfc9c1"
+yellow = "#ebcb8b"
+
+[colors.cursor]
+cursor = "#d8dee9"
+text = "#2e3440"
+
+[colors.dim]
+black = "#1a1b26"
+blue = "#7aa2f7"
+cyan = "#9aa5ce"
+green = "#a3be8c"
+magenta = "#565f89"
+red = "#bf616a"
+white = "#cdc9c3"
+yellow = "#e0af68"
+
+[colors.normal]
+black = "#414868"
+blue = "#7dcfff"
+cyan = "#2ac3de"
+green = "#9ece6a"
+magenta = "#bb9af7"
+red = "#e06c75"
+white = "#cfc9c2"
+yellow = "#ebcb8b"
+
+[colors.primary]
+background = "#1a1b26"
+dim_foreground = "#a5abb6"
+foreground = "#c0caf5"
+
+[colors.selection]
+background = "#4c566a"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "#d8dee9"
+text = "#2e3440"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[window]
+decorations = "none"
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 0
+y = 0
