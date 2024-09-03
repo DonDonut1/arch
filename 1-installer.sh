@@ -81,6 +81,7 @@ PKGS=(
         'pavucontrol'
         'polybar'
         'qemu-full'
+        'qt5'
         'ranger'
         'ristretto'
         'rofi'
