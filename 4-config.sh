@@ -10,6 +10,7 @@ echo "Copying .config files"
 echo
 
 cp -r -v ./home/.fehbg ./home/.xinitrc ./home/.Xresources ./home/.zshenv ./home/.config ~/
+cp -r -v ./home/Bilder/Wallpaper/ ~/Bilder/
 
 echo
 echo "Configuring Firewall(ufw)"
