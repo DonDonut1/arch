@@ -12,9 +12,18 @@ source ~/.config/bspwm/colors/colors.sh
 #source ~/.config/bspwm/scripts/screen.sh
 
 ###WORKSPACES###
-bspc monitor DP-4 -d 1 2 3 4 5 6 7
-bspc monitor DP-2 -d 8 9
-#bspc monitor HDMI-0 -d 10
+if xrandr | grep "DP-4 connected"; then
+	bspc monitor DP-4 -d 1 2 3 4 5 6 7
+fi
+if xrandr | grep "DP-2 connected";then
+	bspc monitor DP-2 -d 8 9
+fi
+if xrandr | grep "HDMI-0 connected";then
+	bspc monitor HDMI-0 -d 10
+fi
+if xrandr | grep "eDP-1 connected";then
+	bspc monitor eDP-1 -d 1 2 3 4 5 6 7
+fi
 
 ###BSPWM CONFIGURATION###
 #bspc config border_radius		8
@@ -45,12 +54,26 @@ bspc rule -a Galculator state=floating
 xsetroot -cursor_name left_ptr &
 
 ###MONITORS###
-xrandr --output DP-4 --primary --mode 3440x1440 --rate 144 --pos 0x1440 --output DP-2 --mode 2560x1440 --rate 144 --pos 440x0 --output HDMI-0 --off #--output HDMI-0 --mode 1920x1080 --rate 120 --right-of DP-4 
+if xrandr | grep "DP-4 connected";then
+		xrandr --output DP-4 --primary --mode 3440x1440 --rate 144 --pos 0x1440	
+	fi
+if xrandr | grep "DP-2 connected";then
+		xrandr --output DP-2 --mode 2560x1440 --rate 144 --pos 440x0
+	fi	
+if xrandr | grep "HDMI-0 connected";then
+		xrandr --output HDMI-0 --mode 1920x1080 --rate 120 --right-of DP-4
+	fi
+if xrandr | grep "eDP-1 connected";then
+		xrandr --output eDP-1 --mode 2560x1600 --scale 0.8x0.8 --rate 60
+	fi
+
 # Monitor blanking and screensaver off
 xset s off s noblank s noexpose s 0 0 -dpms &
 
 ###TOUCHPAD###
-#xinput set-prop "04CA00B1:00 04CA:00B1 Touchpad" "libinput Tapping Enabled" 1
+if xrandr | grep "eDP-1 connected";then
+	xinput set-prop "04CA00B1:00 04CA:00B1 Touchpad" "libinput Tapping Enabled" 1
+	fi
 
 ###AUTOSTART###
 sxhkd &
